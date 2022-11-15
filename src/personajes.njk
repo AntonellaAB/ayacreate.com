@@ -1,0 +1,28 @@
+---
+layout: layouts/base.njk
+title: personajes
+eleventyNavigation:
+  key: personajes
+  title: 2D & 3D
+  order: 2
+---
+
+<div class="col-6 col-md-5 col-sm-4 col-xs-6">
+  {% for elemento in personajes %}
+    {% include 'components/personajes.njk' %}
+  {% endfor %}
+</div>
+
+<div class="col-6 col-md-5 col-sm-4 col-xs-6 personajes-texto">
+  <h1 class="text-headline font-2">Creacion de personajes 2D y 3D</h1>
+  <p>
+    Tu escaparate 24/7 en internet, con diseño a medida y orientado al posicionamiento SEO.
+  </p>
+  <br>
+  <h1 class="text-headline font-2">Modelado de enviroment en 3D</h1>
+  <p>
+    Tu escaparate 24/7 en internet, con diseño a medida y orientado al posicionamiento SEO.
+  </p>
+  
+
+</div>

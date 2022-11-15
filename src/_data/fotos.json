@@ -1,0 +1,23 @@
+[
+  {
+    "imagen": "ref logo 2.png",
+    "posicion": "izquierda"
+    
+  },
+  {
+    "imagen": "mockups.png",
+    "posicion": "completa"
+  },
+  {
+    "imagen": "flyers.png",
+    "posicion": "derecha"
+  },
+  {
+    "imagen": "ref logo.png",
+    "posicion": "derecha"
+  },
+  {
+    "imagen": "mockups 7.jpg",
+    "posicion": "completa"
+  }
+]

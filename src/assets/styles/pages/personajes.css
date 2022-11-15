@@ -1,0 +1,40 @@
+.personajes-texto {
+  padding-top: 20vh;
+  height: min-content;
+  position: sticky;
+  top: 0;
+}
+
+.personajes-texto .text-headline {
+  line-height: 1;
+  margin-bottom: var(--spacer-m);
+}
+
+@media (max-width: 900px) {
+  .personajes-texto {
+    position: unset;
+  }
+}
+
+@media (max-width: 700px) {
+  .personajes-texto {
+    padding-top: var(--spacer-xl);
+  }
+  .personajes-texto .text-headline {
+    margin-bottom: var(--spacer-s);
+  }
+}
+
+@media (max-width: 500px) {
+  .personajes-texto {
+    margin-top: 0;
+    order: -1;
+  }
+  .personajes-texto .text-headline {
+    line-height: 1.5;
+  }
+}
+
+.col-6 h1{
+  color: #A83139;
+}

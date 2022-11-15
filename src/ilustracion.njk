@@ -1,0 +1,27 @@
+---
+layout: layouts/base.njk
+title: Desarrollo Web
+eleventyNavigation:
+  key: web
+  title: Desarrollo Web
+  order: 2
+---
+
+<div class="col-6 col-md-5 col-sm-4 col-xs-6">
+  {% for elemento in ilus %}
+    {% include 'components/project-ilu.njk' %}
+  {% endfor %}
+</div>
+
+<div class="col-6 col-md-5 col-sm-4 col-xs-6 ilustracion-texto">
+  <h1 class="text-headline font-2">Desarrollo Web</h1>
+  <p>
+    Tu escaparate 24/7 en internet, con diseño a medida y orientado al posicionamiento SEO.
+  </p>
+  <br>
+  <h2>Servicios</h2>
+  <p>
+    Landing Page, Web Corporativa, Catálogo en línea. Dominio, hosting, correo corporativo, SEO.
+  </p>
+
+</div>
